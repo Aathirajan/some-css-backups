@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <!-- Internal css -->
+    <style>
+        h1 {
+          color: orange
+        }
+    </style>
+    <!-- External css - Best -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <h1>Hello, 🌍 🙋‍♂️!!!</h1>
+    
+    <h4>Another H4</h4>
+    <!-- Inline style -->
+    <h2 style="color: coral">Awesome batch, B34WD</h2>
+    <h3 >Topic - Css Intro</h3>
+    <p class="movie-name">Beast - demo waiting 🔫</p>
+    <h4 id="quote">Dream without fear, love without limits</h4>
+    <p class="brand">Gucci is an Italian high-end luxury fashion house based in Florence, Italy. Its product lines include handbags, ready-to-wear, footwear, and accessories, makeup, fragrances, and home decoration. Gucci was founded in 1921 by Guccio Gucci in Florence</p>
+
+    <p >Content1</p> <p>Content2</p>
+    <img class="cute-image" src="https://cdn.logojoy.com/wp-content/uploads/20201123142051/Screenshot-2020-11-22-at-18.51.52-600x447.png">
+    <span> Nice1 </span>
+    <span> Nice2 </span>
+</body>
+</html>
+
+
+<!-- !<tab> -->
+<!-- win + .  emoji -->
+
+
+----------------------------------------------
+
+CSS file:
+
+/* element/tag - h3, p, h4 */
+h3{
+    font-size: 48px;
+    color: orangered
+}
+
+/* class selector - .classname */
+.movie-name{
+    font-size: 24px;
+    font-weight: 400;
+    /* font-style: italic; */
+    /* color: rgb(128 0 128); */
+    /* color: rgb(246 119 25 / 86%); */
+    color: hsl(327deg 96% 52% / 86%); 
+    
+    /* color: #a81eff; */
+    font-family: 'Inter', Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* color format */
+ /* 1. color names
+ 2. RGB 
+ 3. HSLA - Hue Saturation Lightness Alpha - Best
+ 4. Hex - hexadecimal - oldest
+ */
+
+/* Id selector - use only once in HTML */
+#quote{
+     text-transform: uppercase;
+     font-family: Roboto;
+     text-decoration: underline;
+     text-align: center;
+     letter-spacing: 2px;
+     /* background-color: orangered;
+     color: whitesmoke; */
+}
+
+/* class selector */
+ .brand{
+     line-height: 1.5;
+     text-align: center;
+     background-color: crimson;
+     color: whitesmoke;
+     font-family: Roboto;
+     border-radius: 12px
+ }
+
+ .adjust{
+    display: inline;
+ }
+
+ .cute-image{
+     height: 200px;
+     width: 200px;
+     object-fit: cover;
+ }
+
+ /* Default
+ p, div, article, h1-h6 - block
+ span - inline */
+
